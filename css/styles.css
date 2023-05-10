@@ -1,0 +1,42 @@
+body {
+  color: #434455;
+  background-color: #ffffff;
+}
+/* LOGO розділення слова кольорами? */
+ul {
+  list-style: none;
+}
+/* site nav */
+.site-nav .link {
+  color: #2e2f42;
+}
+/* adress */
+.adress-list a {
+  color: #434455;
+}
+/* Hero */
+.hero-title {
+  color: #ffffff;
+  background-color: #2e2f42;
+}
+.hero-button {
+  color: #ffffff;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* Section */
+.section-title {
+  color: #2e2f42;
+}
+/* Advantages */
+.advantages .title {
+  color: #2e2f42;
+}
+/* h1 #FFFFFF */
+/* h2/3 #2E2F42 */
+/* абзац #434455  */
+/* футер p #F4F4FD */
+/* кнопка білий #FFFFFF */
+/* фон хіро і футера #2E2F42 */
+/* фон команди #F4F4FD */
