@@ -1,42 +1,225 @@
-body {
-  color: #434455;
-  background-color: #ffffff;
+:root {
+  --primary-color: #4d5ae5;
+  --pressed-color: #404bbf;
+  --dark-color: #2e2f42;
+  --text-color: #434455;
+  --white-color: #ffffff;
+  --light-color: #f4f4fd;
 }
-/* LOGO розділення слова кольорами? */
-ul {
+
+body {
+  font-family: "Roboro", sans-serif;
+  color: var(--text-color);
+}
+
+.list {
   list-style: none;
 }
-/* site nav */
-.site-nav .link {
-  color: #2e2f42;
+
+.link {
+  text-decoration: none;
 }
-/* adress */
-.adress-list a {
-  color: #434455;
+
+/* *** COMMON ACTION ** */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark-color);
 }
-/* Hero */
+.title-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.simple-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/**--------------*HEADER*------------**/
+
+.header {
+  background-color: var(--white-color);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.logo-end {
+  color: var(--dark-color);
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--pressed-color);
+}
+.header-address {
+}
+.header-address-item {
+}
+.header-address-link {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--pressed-color);
+}
+/**--------------HERO------------**/
+.hero {
+  background: var(--dark-color);
+}
 .hero-title {
-  color: #ffffff;
-  background-color: #2e2f42;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
 }
 .hero-button {
-  color: #ffffff;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-color);
+}
+/**------------ADVANTAGES---------- **/
+.advantages {
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advantages-list {
+}
+
+.advantages-item {
+}
+.advantages-title {
+  color: var(--dark-color);
+}
+.advantages-text {
+}
+/**-------PHOTOS OF WORK-------**/
+.work {
+}
+.work-title {
+}
+.work-list {
+}
+
+.work-item {
+}
+/**----------CARDS OF OUR TEAM------- **/
+.team {
+  background: var(--light-color);
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+  background: var(--white-color);
+}
+.team-name {
+  text-align: center;
+}
+
+.team-text {
+  text-align: center;
+}
+
+/**-----------FOOTER--------- **/
+
+.footer {
+  background: var(--dark-color);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+.footer-logo-end {
+  color: var(--light-color);
+}
+.footer-text {
+  color: var(--light-color);
+}
+
+/* !------- PAGE PORTFOLIO-------- */
+/** ------------FILTERS-------------* */
+.filters-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-color);
+  background: var(--light-color);
+  border: 1px solid #e7e9fc;
   border-radius: 4px;
+  cursor: pointer;
 }
-/* Section */
-.section-title {
-  color: #2e2f42;
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: var(--pressed-color);
+  color: var(--white-color);
 }
-/* Advantages */
-.advantages .title {
-  color: #2e2f42;
-}
-/* h1 #FFFFFF */
-/* h2/3 #2E2F42 */
-/* абзац #434455  */
-/* футер p #F4F4FD */
-/* кнопка білий #FFFFFF */
-/* фон хіро і футера #2E2F42 */
-/* фон команди #F4F4FD */
