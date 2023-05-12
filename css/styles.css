@@ -85,7 +85,7 @@ body {
 }
 .header-address-item {
 }
-.address .header-address-link {
+.header-address-link {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
@@ -98,6 +98,10 @@ body {
 .header-address-link:focus {
   color: var(--pressed-color);
 }
+.address {
+  font-style: normal;
+}
+
 /**--------------HERO------------**/
 .hero {
   background: var(--dark-color);
