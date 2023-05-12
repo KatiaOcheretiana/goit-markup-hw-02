@@ -8,8 +8,9 @@
 }
 
 body {
-  font-family: "Roboro", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--text-color);
+  background-color: var(--white-color);
 }
 
 .list {
@@ -84,7 +85,7 @@ body {
 }
 .header-address-item {
 }
-.header-address-link {
+.address .header-address-link {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
@@ -109,7 +110,7 @@ body {
   color: var(--white-color);
 }
 .hero-button {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -204,7 +205,7 @@ body {
 /* !------- PAGE PORTFOLIO-------- */
 /** ------------FILTERS-------------* */
 .filters-btn {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
